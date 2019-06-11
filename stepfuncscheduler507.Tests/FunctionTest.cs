@@ -33,7 +33,7 @@ namespace stepfuncscheduler507.Tests
 
             state = functions.Calculation(state, context);
 
-            Assert.Equal(5, state.WaitInSeconds);
+            Assert.Equal(3, state.WaitInSeconds);
             Assert.Equal("7", state.Result);
         }
     }
