@@ -1,6 +1,6 @@
 ﻿{
   "Comment": "State Machine",
-  "StartAt": "Calc",
+  "StartAt": "Initial",
   "States": {
     "Initial": {
       "Type": "Task",
