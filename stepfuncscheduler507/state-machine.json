@@ -27,12 +27,12 @@
       "Choices": [
         {
           "Variable": "$.IsValid",
-          "NumericEquals": 1,
+          "BooleanEquals": true,
           "Next": "Calculation"
         },
         {
           "Variable": "$.IsValid",
-          "NumericEquals": 0,
+          "BooleanEquals": false,
           "Next": "PrintError"
         }
       ],
